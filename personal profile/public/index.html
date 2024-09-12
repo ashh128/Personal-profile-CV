@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is about Aisha Alvi">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#d55b96">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#d01257">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0d0dba">
+
+</head>
+<body>
+    <div id="container">
+    <header id="mainheader"> 
+        <h1> HOME </h1>
+    </header> 
+    <nav class="mainNav"> 
+        <ul>
+            <li><a aria-current="page" href="index.html">HOME</a></li>
+            <li><a href="demos.html">DEMOS</a></li>
+            <li><a href="interest.html">INTEREST</a></li>
+            <li><a href="qualifications.html">QUALIFICATIONS</a></li>
+         </ul>
+         
+    </nav>
+    
+    <main> 
+        <div class = "p_box">
+        <div id="box1">
+        <h2> ABOUT ME</h2>
+        <p id="para1"> 
+            My name is Aisha Alvi. I was born in Riyadh, Saudi Arabia and raised in both Dubai and Abu Dhabi. 
+            I am a first year cyber security student who aspires to do law in the future. I currently live 
+            in stafford and attained my A-level diploma from Walton High School where I studied the subjects 
+            of maths, physics and computer science.</p>
+        
+
+        <p id="para2"> 
+            The reason I chose to pursue a degree in cyber security is not only due to its flourishing job market
+             but also because of the passion that I have for the subject itself . That being said, If I could pursue 
+             a career in any other subject I would choose to persue one in maths. I am an avid Iistener of music 
+             and my favourite genre of music is pop/Jazz.
+          
+
+        <p id="para3"> 
+            If I could travel to one place in the world , I would choose to go back to Dubai to meet my friends
+            and visit the city that raised me. Over the years I have managed to try out a large number of enjoyable
+            activities including: </p><ol><li>basketball</li><li>reading</li><li>sketching</li><li>baking</li></ol>
+
+        <p id="para4">
+            My recently discovered  hobby is <strong>crocheting</strong> which I enjoy mainly because of its calming 
+            and low maintenance nature.</p>
+        </div>
+        <div id="box2">
+            <picture>
+                <source srcset="images/me.webp">
+                <img id="me" src="images/me.jpg" alt="my picture">
+            
+            </picture> 
+         
+            <table id="first">
+                <tr>
+                    <td>Name </td>
+                    <td>Aisha Alvi</td>
+                </tr>
+                <tr>
+                    <td>Birthday </td>
+                    <td>12 /08/ 2005</td>
+                </tr>
+                <tr>
+                    <td>Current Age </td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Birth Place </td>
+                    <td>Riyadh, Saudi Arabia</td>
+                </tr>
+
+                <tr>
+                    <td>Course </td>
+                    <td>BSc Cybersecurity</td>
+                </tr>
+
+            </table>
+            <div class="choice">   
+                <picture>
+
+                <source srcset="images/blue.webp" media="(max-width: 768px)">
+                <!--  https://pngtree.com/element/down?id=NDY5NDE4Mw==&type=1&time=1714995356&token=MTQxYmM2YjRkMWU1OWM3MjgwMTRiYmRiZmVjZWVkYmI=&t=0-->
+                <img src="images/cherry.webp" alt="cherry blossoms">               
+                <!-- https://www.vecteezy.com/png/21020270-beautiful-pink-sakura-cherry-blossom-illustration -->
+            </picture>    
+            </div>
+                                
+        </div>
+        
+    </div>
+    </main>
+	<footer>     
+        <p>&copy; Aisha Alvi (a034973n) This is for an assignment at Staffordshire University Web Dev and OS</p>
+        <a href="https://validator.w3.org/services">validator-index</a>
+    </footer>
+</div>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+           navigator.serviceWorker.register('serviceworker.js').then(
+                function(registration) {
+       console.log('Service worker registration successful',registration);
+                }, 
+                function(err) {
+               console.log('Service worker registration failed', err);
+            });
+        });
+    }
+    </script>
+
+</body>
+</html>
